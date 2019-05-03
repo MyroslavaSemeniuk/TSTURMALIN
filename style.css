@@ -1,0 +1,41 @@
+body{
+      background: url(фотки/головна.jpg);
+      -moz-background-size: 100%;
+      -webkit-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      margin: 0px;
+      padding: 0px
+    }
+.button {
+  margin:10px right; /*10 зверху і знизу, вирівнять по сер. екрана*/
+  width:250px;/*ширина кнопки*/
+  height: 60px;/*висота*/
+  position: relative;/*здвиг демо і діск*/
+}
+a {
+  text-decoration: none;
+  color: #fff
+}
+.demo{
+  background-color: #FF3818;/*колі блока*/
+  width: 300px;
+  height: 45px;
+  text-align: center;
+  position: absolute;/*положення по центру*/
+  font-size: 2em;
+  margin-top: 210%;
+  margin-left: 210%;
+  left:0;/*відповідно до лівого краю*/
+  border-radius: 3px;/*закруглені кути кнопки*/
+  border-color: #6288ff;
+  border-width: 20%;
+}
+img{
+  width: 70%;
+  margin-left: 230%;
+  margin-top: 265%;
+}
+.btn{
+  background-color: white;
+}

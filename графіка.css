@@ -1,0 +1,24 @@
+body{
+      background: url(фотки/фон_графіка.jpg);
+      -moz-background-size: 100%;
+      -webkit-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 110%;
+      margin: 0px;
+      padding: 0px
+    }
+p{
+	background-color: #EC6AA1;
+	margin-top: 70px;
+	height: 50;
+	text-align: center;
+	color: black;
+	font-size: 300%;
+}
+.wrapper > div{
+   		background: #00B945;
+   		padding: 1em;
+   	}
+.wrapper >div: nth-clild (odd){
+   		background: #00B945; 
+   	}
